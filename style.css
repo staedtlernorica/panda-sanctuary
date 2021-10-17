@@ -308,12 +308,37 @@ h1{
   padding: 0 0 0 3%;
 }
 
+.mobile-image{
+  display: none;
+}
+
   @media (max-width: 750px) {
 
-    .panda{
-      
+    
+    .panda, .panda:nth-child(2){
+      background-image: url();
     }
-
+    
+    .panda{
+      height: auto;
+    }
+    
+    .panda .text-1{
+      width: 100%;
+      padding: 0;
+      height: 60%;
+    }
+    
+    .mobile-image{
+      background-image: url("assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png");
+      display: block;
+      height: 40%;
+    }
+    
+    .panda .text-2{
+      float: none;
+    }
+    
 }
 
 
