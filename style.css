@@ -341,7 +341,78 @@ h1{
 }
 
 
-/* ============================READ MORE================================== */
 /* ============================ACTIONS================================== */
+
+.actions{
+/*   display: flex; */
+  background-color: #D6f1e4;
+  color: #2c2d2c;
+/*   flex-direction: column; */
+/*   justify-content: flex-start; */
+}
+
+.actions .wrapper{
+height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.box, .box h2{
+  text-align: center;
+/*   display: inline-block; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.actions .box {
+  width: calc(30%);
+}
+
+
+.actions i{
+  color: #2c2d2c;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 750px) {
+  
+  .actions .box {
+  height: calc(30%);
+}
+  
+  .actions .wrapper{
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+}
+
 /* ============================FOOTER================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
