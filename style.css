@@ -77,7 +77,7 @@ a{
 header{
     height: 85vh;
     background-color: salmon;
-    background-image: url("./assets/header-image.png");
+    background-image: url("https://psd.hackeryou.com/assignment1-assets/panda-sanctuary/header-image.png");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -275,13 +275,13 @@ h1{
   background-position: 100% 50%;
   background-size: 50%;
   background-repeat: no-repeat;
-  background-image: url("assets/image-2@2x.png");
+  background-image: url("https://psd.hackeryou.com/assignment1-assets/panda-sanctuary/pascal-muller-4-eaj-iu-uxg-aq-unsplash@2x.png");
   z-index: 10;
 }
 
 .panda:nth-child(2){
     background-position: 0 50%;
-  background-image: url("assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png");
+  background-image: url("https://psd.hackeryou.com/assignment1-assets/panda-sanctuary/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png");
 
 }
 
